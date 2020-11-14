@@ -1,0 +1,18 @@
+#App {
+  display: flex;
+}
+.box-wrap {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+}
