@@ -1,0 +1,69 @@
+:root {
+  --main-bag-color: rgb(221, 240, 253);
+}
+
+body {
+  background-color: var(--main-bag-color);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+h1 {
+  font-weight: 900;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #284253;
+}
+
+#inputBar {
+  margin: 50px;
+  border-radius: 10px;
+  background-image: linear-gradient(150deg, #f6fbfd, #b6cbda);
+  width: max-content;
+  padding: 2px;
+  box-shadow: 20px 20px 60px #bcccd7, -20px -20px 60px #ffffff;
+}
+#inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ecffff, #c7d8e4);
+}
+hr {
+  width: 100%;
+  border-top: solid #c7d8e4 1px;
+  border-bottom: solid #ecffff 1px;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  background: #ddf0fd;
+  box-shadow: inset 20px 20px 30px #bcccd7, inset -20px -20px 30px #feffff;
+}
+input:focus {
+  background-color: white;
+}
+
+.copyright {
+  text-align: center;
+  bottom: 10px;
+  justify-self: end;
+}
+a {
+  color: #284253;
+}
+a:active {
+  color: #56758a;
+}
+a:hover {
+  color: #091e2c;
+}
+a:checked {
+  color: #56758a;
+}

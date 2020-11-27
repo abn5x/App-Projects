@@ -15,12 +15,17 @@ function InputBar(props) {
         console.log(decimal)
     }
     return (
-    <div>
+      <div id="inputBar">
+        <div id="inner">
+        <h1>Binary Converter</h1>
       <form>
         <label htmlFor="value">Binary Value: </label>
-        <input placeholder="Only 0 and 1 allowed." value={value} onChange={handleChange} id="value" />
-      </form>
+        <input autocomplete="off" placeholder="Only 0 and 1 allowed." value={value} onChange={handleChange} id="value" />
+        </form>
+        <hr/>
       {value ? <strong>The decimal number is: {decimal}</strong> : <i>Please type your binary number</i>}
+
+        </div>
     </div>
     )
 }
